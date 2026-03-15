@@ -128,14 +128,44 @@ bundle exec ./.claude/skills/roughcut/export_to_fcpxml.rb libraries/[library-nam
 bundle exec ./.claude/skills/roughcut/export_to_fcpxml.rb libraries/[library-name]/roughcuts/[roughcut_name]_[datetime].yaml libraries/[library-name]/roughcuts/[roughcut_name]_[datetime].xml resolve
 ```
 
-### 7. Create Backup
+### 7. Render Preview MP4
+
+Render a preview MP4 so the user can watch the cut directly without importing into their editor.
+
+**Naming convention:** `{title_slug}_v{N}.mp4` where:
+- `title_slug` is a short lowercase underscore-separated title (e.g. `7_things_20s`)
+- `N` is the version number — count existing MP4s in the roughcuts folder that share the same title slug and increment by 1 (so the first render is `v1`, a re-render is `v2`, etc.)
+
+**Render using ffmpeg in WSL** — extract each clip individually then concatenate:
+
+```bash
+# 1. Extract each clip to a temp file
+SRC="/mnt/c/Content-Creation/[path-to-source-video]"
+SEGS="/tmp/segs_[title_slug].txt"
+rm -f "$SEGS"
+
+# For each clip (in_point and out_point in seconds):
+ffmpeg -y -ss [in_point] -to [out_point] -i "$SRC" \
+  -c:v libx264 -preset fast -crf 18 -c:a aac -b:a 128k \
+  /tmp/clip_[title_slug]_[N].mp4 2>/dev/null
+echo "file '/tmp/clip_[title_slug]_[N].mp4'" >> "$SEGS"
+
+# 2. Concatenate all clips
+OUT="/mnt/c/Content-Creation/libraries/[library-name]/roughcuts/[title_slug]_v[N].mp4"
+ffmpeg -y -f concat -safe 0 -i "$SEGS" -c copy "$OUT"
+```
+
+Convert `HH:MM:SS.ss` timecodes from the YAML to decimal seconds before passing to ffmpeg (e.g. `00:00:09.18` → `9.18`).
+
+### 8. Create Backup
 
 Run the `backup-library` skill to preserve the completed work.
 
-### 8. Report Results
+### 9. Report Results
 
 Provide summary with:
 - Rough cut name and duration
 - Number of clips included
-- File path for XML
+- MP4 path (for immediate preview)
+- File path for XML (for editor import)
 - Backup confirmation
