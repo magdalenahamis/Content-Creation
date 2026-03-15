@@ -1,4 +1,0 @@
-raw[[:space:]]videos/*.avi filter=lfs diff=lfs merge=lfs -text
-raw[[:space:]]videos/*.mkv filter=lfs diff=lfs merge=lfs -text
-raw[[:space:]]videos/*.mp4 filter=lfs diff=lfs merge=lfs -text
-raw[[:space:]]videos/*.mov filter=lfs diff=lfs merge=lfs -text
