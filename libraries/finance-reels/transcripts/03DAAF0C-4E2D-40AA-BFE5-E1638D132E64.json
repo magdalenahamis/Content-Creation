@@ -1,0 +1,1982 @@
+{
+  "segments": [
+    {
+      "start": 0.031,
+      "end": 4.296,
+      "text": " Seven things to never spend your money on in your 20s if you don't want to go broke in your 30s.",
+      "words": [
+        {
+          "word": "Seven",
+          "start": 0.031,
+          "end": 0.231
+        },
+        {
+          "word": "things",
+          "start": 0.251,
+          "end": 0.472
+        },
+        {
+          "word": "to",
+          "start": 0.512,
+          "end": 0.632
+        },
+        {
+          "word": "never",
+          "start": 0.672,
+          "end": 0.872
+        },
+        {
+          "word": "spend",
+          "start": 0.932,
+          "end": 1.132
+        },
+        {
+          "word": "your",
+          "start": 1.172,
+          "end": 1.312
+        },
+        {
+          "word": "money",
+          "start": 1.353,
+          "end": 1.553
+        },
+        {
+          "word": "on",
+          "start": 1.613,
+          "end": 1.693
+        },
+        {
+          "word": "in",
+          "start": 1.753,
+          "end": 1.813
+        },
+        {
+          "word": "your",
+          "start": 1.853,
+          "end": 1.993
+        },
+        {
+          "word": "20s",
+          "start": 2.414,
+          "end": 2.434
+        },
+        {
+          "word": "if",
+          "start": 2.514,
+          "end": 2.574
+        },
+        {
+          "word": "you",
+          "start": 2.594,
+          "end": 2.714
+        },
+        {
+          "word": "don't",
+          "start": 2.734,
+          "end": 2.874
+        },
+        {
+          "word": "want",
+          "start": 2.894,
+          "end": 2.994
+        },
+        {
+          "word": "to",
+          "start": 3.034,
+          "end": 3.095
+        },
+        {
+          "word": "go",
+          "start": 3.115,
+          "end": 3.255
+        },
+        {
+          "word": "broke",
+          "start": 3.275,
+          "end": 3.495
+        },
+        {
+          "word": "in",
+          "start": 3.535,
+          "end": 3.595
+        },
+        {
+          "word": "your",
+          "start": 3.615,
+          "end": 4.036
+        },
+        {
+          "word": "30s.",
+          "start": 4.156,
+          "end": 4.296
+        }
+      ],
+      "avg_logprob": -0.08171843678763743
+    },
+    {
+      "start": 4.316,
+      "end": 4.296,
+      "text": "1.",
+      "words": [
+        {
+          "word": "1."
+        }
+      ],
+      "avg_logprob": -0.08171843678763743
+    },
+    {
+      "start": 4.356,
+      "end": 6.098,
+      "text": "Gambling, specifically sports betting.",
+      "words": [
+        {
+          "word": "Gambling,",
+          "start": 4.356,
+          "end": 4.776
+        },
+        {
+          "word": "specifically",
+          "start": 4.857,
+          "end": 5.397
+        },
+        {
+          "word": "sports",
+          "start": 5.437,
+          "end": 5.798
+        },
+        {
+          "word": "betting.",
+          "start": 5.858,
+          "end": 6.098
+        }
+      ],
+      "avg_logprob": -0.08171843678763743
+    },
+    {
+      "start": 6.138,
+      "end": 8.981,
+      "text": "If you're going to gamble, just day trade, at least you'll learn something.",
+      "words": [
+        {
+          "word": "If",
+          "start": 6.138,
+          "end": 6.198
+        },
+        {
+          "word": "you're",
+          "start": 6.218,
+          "end": 6.398
+        },
+        {
+          "word": "going",
+          "start": 6.438,
+          "end": 6.599
+        },
+        {
+          "word": "to",
+          "start": 6.639,
+          "end": 6.719
+        },
+        {
+          "word": "gamble,",
+          "start": 6.759,
+          "end": 7.099
+        },
+        {
+          "word": "just",
+          "start": 7.159,
+          "end": 7.319
+        },
+        {
+          "word": "day",
+          "start": 7.359,
+          "end": 7.54
+        },
+        {
+          "word": "trade,",
+          "start": 7.56,
+          "end": 7.8
+        },
+        {
+          "word": "at",
+          "start": 7.88,
+          "end": 7.96
+        },
+        {
+          "word": "least",
+          "start": 7.98,
+          "end": 8.16
+        },
+        {
+          "word": "you'll",
+          "start": 8.18,
+          "end": 8.381
+        },
+        {
+          "word": "learn",
+          "start": 8.421,
+          "end": 8.601
+        },
+        {
+          "word": "something.",
+          "start": 8.661,
+          "end": 8.981
+        }
+      ],
+      "avg_logprob": -0.08171843678763743
+    },
+    {
+      "start": 9.222,
+      "end": 8.981,
+      "text": "2.",
+      "words": [
+        {
+          "word": "2."
+        }
+      ],
+      "avg_logprob": -0.08171843678763743
+    },
+    {
+      "start": 9.362,
+      "end": 10.123,
+      "text": "Expensive pets.",
+      "words": [
+        {
+          "word": "Expensive",
+          "start": 9.362,
+          "end": 9.822
+        },
+        {
+          "word": "pets.",
+          "start": 9.882,
+          "end": 10.123
+        }
+      ],
+      "avg_logprob": -0.08171843678763743
+    },
+    {
+      "start": 10.283,
+      "end": 12.766,
+      "text": "Dogs and cats are way more expensive than people think.",
+      "words": [
+        {
+          "word": "Dogs",
+          "start": 10.283,
+          "end": 10.483
+        },
+        {
+          "word": "and",
+          "start": 10.543,
+          "end": 10.623
+        },
+        {
+          "word": "cats",
+          "start": 10.643,
+          "end": 10.864
+        },
+        {
+          "word": "are",
+          "start": 11.024,
+          "end": 11.124
+        },
+        {
+          "word": "way",
+          "start": 11.204,
+          "end": 11.404
+        },
+        {
+          "word": "more",
+          "start": 11.444,
+          "end": 11.584
+        },
+        {
+          "word": "expensive",
+          "start": 11.644,
+          "end": 12.065
+        },
+        {
+          "word": "than",
+          "start": 12.105,
+          "end": 12.225
+        },
+        {
+          "word": "people",
+          "start": 12.285,
+          "end": 12.525
+        },
+        {
+          "word": "think.",
+          "start": 12.586,
+          "end": 12.766
+        }
+      ],
+      "avg_logprob": -0.08171843678763743
+    },
+    {
+      "start": 12.866,
+      "end": 14.147,
+      "text": "They are literally like kids.",
+      "words": [
+        {
+          "word": "They",
+          "start": 12.866,
+          "end": 13.006
+        },
+        {
+          "word": "are",
+          "start": 13.086,
+          "end": 13.206
+        },
+        {
+          "word": "literally",
+          "start": 13.306,
+          "end": 13.667
+        },
+        {
+          "word": "like",
+          "start": 13.707,
+          "end": 13.867
+        },
+        {
+          "word": "kids.",
+          "start": 13.927,
+          "end": 14.147
+        }
+      ],
+      "avg_logprob": -0.08171843678763743
+    },
+    {
+      "start": 14.247,
+      "end": 16.21,
+      "text": "If you don't have the time or money, skip it.",
+      "words": [
+        {
+          "word": "If",
+          "start": 14.247,
+          "end": 14.308
+        },
+        {
+          "word": "you",
+          "start": 14.348,
+          "end": 14.488
+        },
+        {
+          "word": "don't",
+          "start": 14.528,
+          "end": 14.708
+        },
+        {
+          "word": "have",
+          "start": 14.768,
+          "end": 14.908
+        },
+        {
+          "word": "the",
+          "start": 14.928,
+          "end": 15.028
+        },
+        {
+          "word": "time",
+          "start": 15.048,
+          "end": 15.229
+        },
+        {
+          "word": "or",
+          "start": 15.309,
+          "end": 15.389
+        },
+        {
+          "word": "money,",
+          "start": 15.429,
+          "end": 15.669
+        },
+        {
+          "word": "skip",
+          "start": 15.849,
+          "end": 16.11
+        },
+        {
+          "word": "it.",
+          "start": 16.15,
+          "end": 16.21
+        }
+      ],
+      "avg_logprob": -0.08171843678763743
+    },
+    {
+      "start": 16.73,
+      "end": 17.631,
+      "text": " 3.",
+      "words": [
+        {
+          "word": "3."
+        }
+      ],
+      "avg_logprob": -0.10021989164607865
+    },
+    {
+      "start": 16.83,
+      "end": 17.631,
+      "text": "Eating out every day.",
+      "words": [
+        {
+          "word": "Eating",
+          "start": 16.83,
+          "end": 17.011
+        },
+        {
+          "word": "out",
+          "start": 17.111,
+          "end": 17.211
+        },
+        {
+          "word": "every",
+          "start": 17.291,
+          "end": 17.451
+        },
+        {
+          "word": "day.",
+          "start": 17.491,
+          "end": 17.631
+        }
+      ],
+      "avg_logprob": -0.10021989164607865
+    },
+    {
+      "start": 17.651,
+      "end": 19.333,
+      "text": "It adds up faster than you think.",
+      "words": [
+        {
+          "word": "It",
+          "start": 17.651,
+          "end": 17.691
+        },
+        {
+          "word": "adds",
+          "start": 17.832,
+          "end": 17.972
+        },
+        {
+          "word": "up",
+          "start": 18.032,
+          "end": 18.132
+        },
+        {
+          "word": "faster",
+          "start": 18.172,
+          "end": 18.492
+        },
+        {
+          "word": "than",
+          "start": 18.512,
+          "end": 18.633
+        },
+        {
+          "word": "you",
+          "start": 18.653,
+          "end": 18.753
+        },
+        {
+          "word": "think.",
+          "start": 18.773,
+          "end": 19.333
+        }
+      ],
+      "avg_logprob": -0.10021989164607865
+    },
+    {
+      "start": 19.353,
+      "end": 19.333,
+      "text": "4.",
+      "words": [
+        {
+          "word": "4."
+        }
+      ],
+      "avg_logprob": -0.10021989164607865
+    },
+    {
+      "start": 19.494,
+      "end": 20.495,
+      "text": "Daily coffee runs.",
+      "words": [
+        {
+          "word": "Daily",
+          "start": 19.494,
+          "end": 19.794
+        },
+        {
+          "word": "coffee",
+          "start": 19.854,
+          "end": 20.194
+        },
+        {
+          "word": "runs.",
+          "start": 20.235,
+          "end": 20.495
+        }
+      ],
+      "avg_logprob": -0.10021989164607865
+    },
+    {
+      "start": 20.635,
+      "end": 22.617,
+      "text": "Make it at home for 25 cents.",
+      "words": [
+        {
+          "word": "Make",
+          "start": 20.635,
+          "end": 20.795
+        },
+        {
+          "word": "it",
+          "start": 20.835,
+          "end": 20.895
+        },
+        {
+          "word": "at",
+          "start": 20.935,
+          "end": 21.015
+        },
+        {
+          "word": "home",
+          "start": 21.076,
+          "end": 21.276
+        },
+        {
+          "word": "for",
+          "start": 21.336,
+          "end": 21.456
+        },
+        {
+          "word": "25"
+        },
+        {
+          "word": "cents.",
+          "start": 22.017,
+          "end": 22.617
+        }
+      ],
+      "avg_logprob": -0.10021989164607865
+    },
+    {
+      "start": 22.637,
+      "end": 22.617,
+      "text": "5.",
+      "words": [
+        {
+          "word": "5."
+        }
+      ],
+      "avg_logprob": -0.10021989164607865
+    },
+    {
+      "start": 22.758,
+      "end": 23.478,
+      "text": "Brand new car.",
+      "words": [
+        {
+          "word": "Brand",
+          "start": 22.758,
+          "end": 23.018
+        },
+        {
+          "word": "new",
+          "start": 23.038,
+          "end": 23.178
+        },
+        {
+          "word": "car.",
+          "start": 23.218,
+          "end": 23.478
+        }
+      ],
+      "avg_logprob": -0.10021989164607865
+    },
+    {
+      "start": 23.659,
+      "end": 26.042,
+      "text": "It loses half of its value in the first few years.",
+      "words": [
+        {
+          "word": "It",
+          "start": 23.659,
+          "end": 23.759
+        },
+        {
+          "word": "loses",
+          "start": 23.839,
+          "end": 24.119
+        },
+        {
+          "word": "half",
+          "start": 24.179,
+          "end": 24.38
+        },
+        {
+          "word": "of",
+          "start": 24.4,
+          "end": 24.46
+        },
+        {
+          "word": "its",
+          "start": 24.54,
+          "end": 24.68
+        },
+        {
+          "word": "value",
+          "start": 24.72,
+          "end": 25.02
+        },
+        {
+          "word": "in",
+          "start": 25.08,
+          "end": 25.14
+        },
+        {
+          "word": "the",
+          "start": 25.18,
+          "end": 25.261
+        },
+        {
+          "word": "first",
+          "start": 25.321,
+          "end": 25.541
+        },
+        {
+          "word": "few",
+          "start": 25.581,
+          "end": 25.741
+        },
+        {
+          "word": "years.",
+          "start": 25.781,
+          "end": 26.042
+        }
+      ],
+      "avg_logprob": -0.10021989164607865
+    },
+    {
+      "start": 26.122,
+      "end": 27.904,
+      "text": "Get a beater and invest in the difference.",
+      "words": [
+        {
+          "word": "Get",
+          "start": 26.122,
+          "end": 26.282
+        },
+        {
+          "word": "a",
+          "start": 26.362,
+          "end": 26.442
+        },
+        {
+          "word": "beater",
+          "start": 26.502,
+          "end": 26.822
+        },
+        {
+          "word": "and",
+          "start": 26.943,
+          "end": 27.023
+        },
+        {
+          "word": "invest",
+          "start": 27.063,
+          "end": 27.383
+        },
+        {
+          "word": "in",
+          "start": 27.403,
+          "end": 27.483
+        },
+        {
+          "word": "the",
+          "start": 27.523,
+          "end": 27.583
+        },
+        {
+          "word": "difference.",
+          "start": 27.603,
+          "end": 27.904
+        }
+      ],
+      "avg_logprob": -0.10021989164607865
+    },
+    {
+      "start": 28.284,
+      "end": 27.904,
+      "text": "6.",
+      "words": [
+        {
+          "word": "6."
+        }
+      ],
+      "avg_logprob": -0.10021989164607865
+    },
+    {
+      "start": 28.364,
+      "end": 29.185,
+      "text": "Design and clothes.",
+      "words": [
+        {
+          "word": "Design",
+          "start": 28.364,
+          "end": 28.785
+        },
+        {
+          "word": "and",
+          "start": 28.825,
+          "end": 28.885
+        },
+        {
+          "word": "clothes.",
+          "start": 28.925,
+          "end": 29.185
+        }
+      ],
+      "avg_logprob": -0.10021989164607865
+    },
+    {
+      "start": 29.225,
+      "end": 30.106,
+      "text": "Gucci Louis Vuitton.",
+      "words": [
+        {
+          "word": "Gucci",
+          "start": 29.225,
+          "end": 29.486
+        },
+        {
+          "word": "Louis",
+          "start": 29.526,
+          "end": 29.686
+        },
+        {
+          "word": "Vuitton.",
+          "start": 29.706,
+          "end": 30.106
+        }
+      ],
+      "avg_logprob": -0.10021989164607865
+    },
+    {
+      "start": 30.166,
+      "end": 31.768,
+      "text": "None of this is worth in your 20s.",
+      "words": [
+        {
+          "word": "None",
+          "start": 30.166,
+          "end": 30.327
+        },
+        {
+          "word": "of",
+          "start": 30.367,
+          "end": 30.447
+        },
+        {
+          "word": "this",
+          "start": 30.467,
+          "end": 30.647
+        },
+        {
+          "word": "is",
+          "start": 30.727,
+          "end": 30.807
+        },
+        {
+          "word": "worth",
+          "start": 30.907,
+          "end": 31.148
+        },
+        {
+          "word": "in",
+          "start": 31.228,
+          "end": 31.288
+        },
+        {
+          "word": "your",
+          "start": 31.328,
+          "end": 31.448
+        },
+        {
+          "word": "20s.",
+          "start": 31.608,
+          "end": 31.768
+        }
+      ],
+      "avg_logprob": -0.10021989164607865
+    },
+    {
+      "start": 31.788,
+      "end": 31.768,
+      "text": "7.",
+      "words": [
+        {
+          "word": "7."
+        }
+      ],
+      "avg_logprob": -0.10021989164607865
+    },
+    {
+      "start": 31.949,
+      "end": 33.15,
+      "text": "Speeding tickets.",
+      "words": [
+        {
+          "word": "Speeding",
+          "start": 31.949,
+          "end": 32.75
+        },
+        {
+          "word": "tickets.",
+          "start": 32.81,
+          "end": 33.15
+        }
+      ],
+      "avg_logprob": -0.10021989164607865
+    },
+    {
+      "start": 33.25,
+      "end": 35.213,
+      "text": "I paid almost 200 for one.",
+      "words": [
+        {
+          "word": "I",
+          "start": 33.25,
+          "end": 33.35
+        },
+        {
+          "word": "paid",
+          "start": 33.41,
+          "end": 33.691
+        },
+        {
+          "word": "almost",
+          "start": 33.851,
+          "end": 34.131
+        },
+        {
+          "word": "200"
+        },
+        {
+          "word": "for",
+          "start": 34.832,
+          "end": 34.972
+        },
+        {
+          "word": "one.",
+          "start": 35.112,
+          "end": 35.213
+        }
+      ],
+      "avg_logprob": -0.10021989164607865
+    },
+    {
+      "start": 35.253,
+      "end": 36.554,
+      "text": "I drive like a grandma right now.",
+      "words": [
+        {
+          "word": "I",
+          "start": 35.253,
+          "end": 35.333
+        },
+        {
+          "word": "drive",
+          "start": 35.373,
+          "end": 35.633
+        },
+        {
+          "word": "like",
+          "start": 35.673,
+          "end": 35.813
+        },
+        {
+          "word": "a",
+          "start": 35.853,
+          "end": 35.873
+        },
+        {
+          "word": "grandma",
+          "start": 35.933,
+          "end": 36.234
+        },
+        {
+          "word": "right",
+          "start": 36.274,
+          "end": 36.414
+        },
+        {
+          "word": "now.",
+          "start": 36.434,
+          "end": 36.554
+        }
+      ],
+      "avg_logprob": -0.10021989164607865
+    },
+    {
+      "start": 36.634,
+      "end": 37.876,
+      "text": "I don't hate spending money.",
+      "words": [
+        {
+          "word": "I",
+          "start": 36.634,
+          "end": 36.714
+        },
+        {
+          "word": "don't",
+          "start": 36.754,
+          "end": 36.935
+        },
+        {
+          "word": "hate",
+          "start": 36.975,
+          "end": 37.195
+        },
+        {
+          "word": "spending",
+          "start": 37.275,
+          "end": 37.615
+        },
+        {
+          "word": "money.",
+          "start": 37.675,
+          "end": 37.876
+        }
+      ],
+      "avg_logprob": -0.10021989164607865
+    },
+    {
+      "start": 37.956,
+      "end": 40.339,
+      "text": "I just hate spending money on things that don't make sense.",
+      "words": [
+        {
+          "word": "I",
+          "start": 37.956,
+          "end": 38.036
+        },
+        {
+          "word": "just",
+          "start": 38.056,
+          "end": 38.216
+        },
+        {
+          "word": "hate",
+          "start": 38.256,
+          "end": 38.436
+        },
+        {
+          "word": "spending",
+          "start": 38.476,
+          "end": 38.817
+        },
+        {
+          "word": "money",
+          "start": 38.857,
+          "end": 39.037
+        },
+        {
+          "word": "on",
+          "start": 39.077,
+          "end": 39.157
+        },
+        {
+          "word": "things",
+          "start": 39.197,
+          "end": 39.398
+        },
+        {
+          "word": "that",
+          "start": 39.438,
+          "end": 39.598
+        },
+        {
+          "word": "don't",
+          "start": 39.658,
+          "end": 39.858
+        },
+        {
+          "word": "make",
+          "start": 39.898,
+          "end": 40.038
+        },
+        {
+          "word": "sense.",
+          "start": 40.078,
+          "end": 40.339
+        }
+      ],
+      "avg_logprob": -0.10021989164607865
+    },
+    {
+      "start": 40.419,
+      "end": 43.823,
+      "text": "If you think I missed something, drop it in the comments and follow for more money content.",
+      "words": [
+        {
+          "word": "If",
+          "start": 40.419,
+          "end": 40.459
+        },
+        {
+          "word": "you",
+          "start": 40.499,
+          "end": 40.619
+        },
+        {
+          "word": "think",
+          "start": 40.659,
+          "end": 40.819
+        },
+        {
+          "word": "I",
+          "start": 40.899,
+          "end": 40.999
+        },
+        {
+          "word": "missed",
+          "start": 41.04,
+          "end": 41.24
+        },
+        {
+          "word": "something,",
+          "start": 41.26,
+          "end": 41.58
+        },
+        {
+          "word": "drop",
+          "start": 41.64,
+          "end": 41.82
+        },
+        {
+          "word": "it",
+          "start": 41.84,
+          "end": 41.921
+        },
+        {
+          "word": "in",
+          "start": 41.961,
+          "end": 42.001
+        },
+        {
+          "word": "the",
+          "start": 42.021,
+          "end": 42.081
+        },
+        {
+          "word": "comments",
+          "start": 42.101,
+          "end": 42.381
+        },
+        {
+          "word": "and",
+          "start": 42.441,
+          "end": 42.521
+        },
+        {
+          "word": "follow",
+          "start": 42.581,
+          "end": 42.862
+        },
+        {
+          "word": "for",
+          "start": 42.882,
+          "end": 43.022
+        },
+        {
+          "word": "more",
+          "start": 43.062,
+          "end": 43.222
+        },
+        {
+          "word": "money",
+          "start": 43.282,
+          "end": 43.442
+        },
+        {
+          "word": "content.",
+          "start": 43.502,
+          "end": 43.823
+        }
+      ],
+      "avg_logprob": -0.10021989164607865
+    }
+  ],
+  "word_segments": [
+    {
+      "word": "Seven",
+      "start": 0.031,
+      "end": 0.231
+    },
+    {
+      "word": "things",
+      "start": 0.251,
+      "end": 0.472
+    },
+    {
+      "word": "to",
+      "start": 0.512,
+      "end": 0.632
+    },
+    {
+      "word": "never",
+      "start": 0.672,
+      "end": 0.872
+    },
+    {
+      "word": "spend",
+      "start": 0.932,
+      "end": 1.132
+    },
+    {
+      "word": "your",
+      "start": 1.172,
+      "end": 1.312
+    },
+    {
+      "word": "money",
+      "start": 1.353,
+      "end": 1.553
+    },
+    {
+      "word": "on",
+      "start": 1.613,
+      "end": 1.693
+    },
+    {
+      "word": "in",
+      "start": 1.753,
+      "end": 1.813
+    },
+    {
+      "word": "your",
+      "start": 1.853,
+      "end": 1.993
+    },
+    {
+      "word": "20s",
+      "start": 2.414,
+      "end": 2.434
+    },
+    {
+      "word": "if",
+      "start": 2.514,
+      "end": 2.574
+    },
+    {
+      "word": "you",
+      "start": 2.594,
+      "end": 2.714
+    },
+    {
+      "word": "don't",
+      "start": 2.734,
+      "end": 2.874
+    },
+    {
+      "word": "want",
+      "start": 2.894,
+      "end": 2.994
+    },
+    {
+      "word": "to",
+      "start": 3.034,
+      "end": 3.095
+    },
+    {
+      "word": "go",
+      "start": 3.115,
+      "end": 3.255
+    },
+    {
+      "word": "broke",
+      "start": 3.275,
+      "end": 3.495
+    },
+    {
+      "word": "in",
+      "start": 3.535,
+      "end": 3.595
+    },
+    {
+      "word": "your",
+      "start": 3.615,
+      "end": 4.036
+    },
+    {
+      "word": "30s.",
+      "start": 4.156,
+      "end": 4.296
+    },
+    {
+      "word": "1."
+    },
+    {
+      "word": "Gambling,",
+      "start": 4.356,
+      "end": 4.776
+    },
+    {
+      "word": "specifically",
+      "start": 4.857,
+      "end": 5.397
+    },
+    {
+      "word": "sports",
+      "start": 5.437,
+      "end": 5.798
+    },
+    {
+      "word": "betting.",
+      "start": 5.858,
+      "end": 6.098
+    },
+    {
+      "word": "If",
+      "start": 6.138,
+      "end": 6.198
+    },
+    {
+      "word": "you're",
+      "start": 6.218,
+      "end": 6.398
+    },
+    {
+      "word": "going",
+      "start": 6.438,
+      "end": 6.599
+    },
+    {
+      "word": "to",
+      "start": 6.639,
+      "end": 6.719
+    },
+    {
+      "word": "gamble,",
+      "start": 6.759,
+      "end": 7.099
+    },
+    {
+      "word": "just",
+      "start": 7.159,
+      "end": 7.319
+    },
+    {
+      "word": "day",
+      "start": 7.359,
+      "end": 7.54
+    },
+    {
+      "word": "trade,",
+      "start": 7.56,
+      "end": 7.8
+    },
+    {
+      "word": "at",
+      "start": 7.88,
+      "end": 7.96
+    },
+    {
+      "word": "least",
+      "start": 7.98,
+      "end": 8.16
+    },
+    {
+      "word": "you'll",
+      "start": 8.18,
+      "end": 8.381
+    },
+    {
+      "word": "learn",
+      "start": 8.421,
+      "end": 8.601
+    },
+    {
+      "word": "something.",
+      "start": 8.661,
+      "end": 8.981
+    },
+    {
+      "word": "2."
+    },
+    {
+      "word": "Expensive",
+      "start": 9.362,
+      "end": 9.822
+    },
+    {
+      "word": "pets.",
+      "start": 9.882,
+      "end": 10.123
+    },
+    {
+      "word": "Dogs",
+      "start": 10.283,
+      "end": 10.483
+    },
+    {
+      "word": "and",
+      "start": 10.543,
+      "end": 10.623
+    },
+    {
+      "word": "cats",
+      "start": 10.643,
+      "end": 10.864
+    },
+    {
+      "word": "are",
+      "start": 11.024,
+      "end": 11.124
+    },
+    {
+      "word": "way",
+      "start": 11.204,
+      "end": 11.404
+    },
+    {
+      "word": "more",
+      "start": 11.444,
+      "end": 11.584
+    },
+    {
+      "word": "expensive",
+      "start": 11.644,
+      "end": 12.065
+    },
+    {
+      "word": "than",
+      "start": 12.105,
+      "end": 12.225
+    },
+    {
+      "word": "people",
+      "start": 12.285,
+      "end": 12.525
+    },
+    {
+      "word": "think.",
+      "start": 12.586,
+      "end": 12.766
+    },
+    {
+      "word": "They",
+      "start": 12.866,
+      "end": 13.006
+    },
+    {
+      "word": "are",
+      "start": 13.086,
+      "end": 13.206
+    },
+    {
+      "word": "literally",
+      "start": 13.306,
+      "end": 13.667
+    },
+    {
+      "word": "like",
+      "start": 13.707,
+      "end": 13.867
+    },
+    {
+      "word": "kids.",
+      "start": 13.927,
+      "end": 14.147
+    },
+    {
+      "word": "If",
+      "start": 14.247,
+      "end": 14.308
+    },
+    {
+      "word": "you",
+      "start": 14.348,
+      "end": 14.488
+    },
+    {
+      "word": "don't",
+      "start": 14.528,
+      "end": 14.708
+    },
+    {
+      "word": "have",
+      "start": 14.768,
+      "end": 14.908
+    },
+    {
+      "word": "the",
+      "start": 14.928,
+      "end": 15.028
+    },
+    {
+      "word": "time",
+      "start": 15.048,
+      "end": 15.229
+    },
+    {
+      "word": "or",
+      "start": 15.309,
+      "end": 15.389
+    },
+    {
+      "word": "money,",
+      "start": 15.429,
+      "end": 15.669
+    },
+    {
+      "word": "skip",
+      "start": 15.849,
+      "end": 16.11
+    },
+    {
+      "word": "it.",
+      "start": 16.15,
+      "end": 16.21
+    },
+    {
+      "word": "3."
+    },
+    {
+      "word": "Eating",
+      "start": 16.83,
+      "end": 17.011
+    },
+    {
+      "word": "out",
+      "start": 17.111,
+      "end": 17.211
+    },
+    {
+      "word": "every",
+      "start": 17.291,
+      "end": 17.451
+    },
+    {
+      "word": "day.",
+      "start": 17.491,
+      "end": 17.631
+    },
+    {
+      "word": "It",
+      "start": 17.651,
+      "end": 17.691
+    },
+    {
+      "word": "adds",
+      "start": 17.832,
+      "end": 17.972
+    },
+    {
+      "word": "up",
+      "start": 18.032,
+      "end": 18.132
+    },
+    {
+      "word": "faster",
+      "start": 18.172,
+      "end": 18.492
+    },
+    {
+      "word": "than",
+      "start": 18.512,
+      "end": 18.633
+    },
+    {
+      "word": "you",
+      "start": 18.653,
+      "end": 18.753
+    },
+    {
+      "word": "think.",
+      "start": 18.773,
+      "end": 19.333
+    },
+    {
+      "word": "4."
+    },
+    {
+      "word": "Daily",
+      "start": 19.494,
+      "end": 19.794
+    },
+    {
+      "word": "coffee",
+      "start": 19.854,
+      "end": 20.194
+    },
+    {
+      "word": "runs.",
+      "start": 20.235,
+      "end": 20.495
+    },
+    {
+      "word": "Make",
+      "start": 20.635,
+      "end": 20.795
+    },
+    {
+      "word": "it",
+      "start": 20.835,
+      "end": 20.895
+    },
+    {
+      "word": "at",
+      "start": 20.935,
+      "end": 21.015
+    },
+    {
+      "word": "home",
+      "start": 21.076,
+      "end": 21.276
+    },
+    {
+      "word": "for",
+      "start": 21.336,
+      "end": 21.456
+    },
+    {
+      "word": "25"
+    },
+    {
+      "word": "cents.",
+      "start": 22.017,
+      "end": 22.617
+    },
+    {
+      "word": "5."
+    },
+    {
+      "word": "Brand",
+      "start": 22.758,
+      "end": 23.018
+    },
+    {
+      "word": "new",
+      "start": 23.038,
+      "end": 23.178
+    },
+    {
+      "word": "car.",
+      "start": 23.218,
+      "end": 23.478
+    },
+    {
+      "word": "It",
+      "start": 23.659,
+      "end": 23.759
+    },
+    {
+      "word": "loses",
+      "start": 23.839,
+      "end": 24.119
+    },
+    {
+      "word": "half",
+      "start": 24.179,
+      "end": 24.38
+    },
+    {
+      "word": "of",
+      "start": 24.4,
+      "end": 24.46
+    },
+    {
+      "word": "its",
+      "start": 24.54,
+      "end": 24.68
+    },
+    {
+      "word": "value",
+      "start": 24.72,
+      "end": 25.02
+    },
+    {
+      "word": "in",
+      "start": 25.08,
+      "end": 25.14
+    },
+    {
+      "word": "the",
+      "start": 25.18,
+      "end": 25.261
+    },
+    {
+      "word": "first",
+      "start": 25.321,
+      "end": 25.541
+    },
+    {
+      "word": "few",
+      "start": 25.581,
+      "end": 25.741
+    },
+    {
+      "word": "years.",
+      "start": 25.781,
+      "end": 26.042
+    },
+    {
+      "word": "Get",
+      "start": 26.122,
+      "end": 26.282
+    },
+    {
+      "word": "a",
+      "start": 26.362,
+      "end": 26.442
+    },
+    {
+      "word": "beater",
+      "start": 26.502,
+      "end": 26.822
+    },
+    {
+      "word": "and",
+      "start": 26.943,
+      "end": 27.023
+    },
+    {
+      "word": "invest",
+      "start": 27.063,
+      "end": 27.383
+    },
+    {
+      "word": "in",
+      "start": 27.403,
+      "end": 27.483
+    },
+    {
+      "word": "the",
+      "start": 27.523,
+      "end": 27.583
+    },
+    {
+      "word": "difference.",
+      "start": 27.603,
+      "end": 27.904
+    },
+    {
+      "word": "6."
+    },
+    {
+      "word": "Design",
+      "start": 28.364,
+      "end": 28.785
+    },
+    {
+      "word": "and",
+      "start": 28.825,
+      "end": 28.885
+    },
+    {
+      "word": "clothes.",
+      "start": 28.925,
+      "end": 29.185
+    },
+    {
+      "word": "Gucci",
+      "start": 29.225,
+      "end": 29.486
+    },
+    {
+      "word": "Louis",
+      "start": 29.526,
+      "end": 29.686
+    },
+    {
+      "word": "Vuitton.",
+      "start": 29.706,
+      "end": 30.106
+    },
+    {
+      "word": "None",
+      "start": 30.166,
+      "end": 30.327
+    },
+    {
+      "word": "of",
+      "start": 30.367,
+      "end": 30.447
+    },
+    {
+      "word": "this",
+      "start": 30.467,
+      "end": 30.647
+    },
+    {
+      "word": "is",
+      "start": 30.727,
+      "end": 30.807
+    },
+    {
+      "word": "worth",
+      "start": 30.907,
+      "end": 31.148
+    },
+    {
+      "word": "in",
+      "start": 31.228,
+      "end": 31.288
+    },
+    {
+      "word": "your",
+      "start": 31.328,
+      "end": 31.448
+    },
+    {
+      "word": "20s.",
+      "start": 31.608,
+      "end": 31.768
+    },
+    {
+      "word": "7."
+    },
+    {
+      "word": "Speeding",
+      "start": 31.949,
+      "end": 32.75
+    },
+    {
+      "word": "tickets.",
+      "start": 32.81,
+      "end": 33.15
+    },
+    {
+      "word": "I",
+      "start": 33.25,
+      "end": 33.35
+    },
+    {
+      "word": "paid",
+      "start": 33.41,
+      "end": 33.691
+    },
+    {
+      "word": "almost",
+      "start": 33.851,
+      "end": 34.131
+    },
+    {
+      "word": "200"
+    },
+    {
+      "word": "for",
+      "start": 34.832,
+      "end": 34.972
+    },
+    {
+      "word": "one.",
+      "start": 35.112,
+      "end": 35.213
+    },
+    {
+      "word": "I",
+      "start": 35.253,
+      "end": 35.333
+    },
+    {
+      "word": "drive",
+      "start": 35.373,
+      "end": 35.633
+    },
+    {
+      "word": "like",
+      "start": 35.673,
+      "end": 35.813
+    },
+    {
+      "word": "a",
+      "start": 35.853,
+      "end": 35.873
+    },
+    {
+      "word": "grandma",
+      "start": 35.933,
+      "end": 36.234
+    },
+    {
+      "word": "right",
+      "start": 36.274,
+      "end": 36.414
+    },
+    {
+      "word": "now.",
+      "start": 36.434,
+      "end": 36.554
+    },
+    {
+      "word": "I",
+      "start": 36.634,
+      "end": 36.714
+    },
+    {
+      "word": "don't",
+      "start": 36.754,
+      "end": 36.935
+    },
+    {
+      "word": "hate",
+      "start": 36.975,
+      "end": 37.195
+    },
+    {
+      "word": "spending",
+      "start": 37.275,
+      "end": 37.615
+    },
+    {
+      "word": "money.",
+      "start": 37.675,
+      "end": 37.876
+    },
+    {
+      "word": "I",
+      "start": 37.956,
+      "end": 38.036
+    },
+    {
+      "word": "just",
+      "start": 38.056,
+      "end": 38.216
+    },
+    {
+      "word": "hate",
+      "start": 38.256,
+      "end": 38.436
+    },
+    {
+      "word": "spending",
+      "start": 38.476,
+      "end": 38.817
+    },
+    {
+      "word": "money",
+      "start": 38.857,
+      "end": 39.037
+    },
+    {
+      "word": "on",
+      "start": 39.077,
+      "end": 39.157
+    },
+    {
+      "word": "things",
+      "start": 39.197,
+      "end": 39.398
+    },
+    {
+      "word": "that",
+      "start": 39.438,
+      "end": 39.598
+    },
+    {
+      "word": "don't",
+      "start": 39.658,
+      "end": 39.858
+    },
+    {
+      "word": "make",
+      "start": 39.898,
+      "end": 40.038
+    },
+    {
+      "word": "sense.",
+      "start": 40.078,
+      "end": 40.339
+    },
+    {
+      "word": "If",
+      "start": 40.419,
+      "end": 40.459
+    },
+    {
+      "word": "you",
+      "start": 40.499,
+      "end": 40.619
+    },
+    {
+      "word": "think",
+      "start": 40.659,
+      "end": 40.819
+    },
+    {
+      "word": "I",
+      "start": 40.899,
+      "end": 40.999
+    },
+    {
+      "word": "missed",
+      "start": 41.04,
+      "end": 41.24
+    },
+    {
+      "word": "something,",
+      "start": 41.26,
+      "end": 41.58
+    },
+    {
+      "word": "drop",
+      "start": 41.64,
+      "end": 41.82
+    },
+    {
+      "word": "it",
+      "start": 41.84,
+      "end": 41.921
+    },
+    {
+      "word": "in",
+      "start": 41.961,
+      "end": 42.001
+    },
+    {
+      "word": "the",
+      "start": 42.021,
+      "end": 42.081
+    },
+    {
+      "word": "comments",
+      "start": 42.101,
+      "end": 42.381
+    },
+    {
+      "word": "and",
+      "start": 42.441,
+      "end": 42.521
+    },
+    {
+      "word": "follow",
+      "start": 42.581,
+      "end": 42.862
+    },
+    {
+      "word": "for",
+      "start": 42.882,
+      "end": 43.022
+    },
+    {
+      "word": "more",
+      "start": 43.062,
+      "end": 43.222
+    },
+    {
+      "word": "money",
+      "start": 43.282,
+      "end": 43.442
+    },
+    {
+      "word": "content.",
+      "start": 43.502,
+      "end": 43.823
+    }
+  ],
+  "language": "en",
+  "video_path": "/mnt/c/Content-Creation/raw videos/03DAAF0C-4E2D-40AA-BFE5-E1638D132E64.mp4"
+}

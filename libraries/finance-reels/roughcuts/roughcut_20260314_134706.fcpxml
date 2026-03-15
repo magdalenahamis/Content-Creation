@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<fcpxml version="1.8">
+  <resources>
+    <format id="r1" height="1920" width="1080" frameDuration="1/30s" colorSpace="1-1-1 (Rec. 709)"/>
+    <asset id="rb4d335375f9672873ddf895c38c6b52c" name="03DAAF0C-4E2D-40AA-BFE5-E1638D132E64.mp4" uid="b4d33537-5f96-7287-3ddf-895c38c6b52c" src="file://C:/Content-Creation/raw%20videos/03DAAF0C-4E2D-40AA-BFE5-E1638D132E64.mp4" start="0s" audioRate="44100" hasAudio="1" hasVideo="1" format="r1" duration="439/10s"/>
+  </resources>
+  <library location="./">
+    <event name="03DAAF0C-4E2D-40AA-BFE5-E1638D132E64" uid="9131b618-01ac-46bf-8c68-88e769dfd7cd">
+      <project name="03DAAF0C-4E2D-40AA-BFE5-E1638D132E64 20260314-124831" uid="d41a4051-597b-45f7-8df4-1a5bdf267c0b" modDate="2025-10-31 17:25:16 GMT-7">
+        <sequence duration="219/5s" format="r1" tcStart="0s" audioRate="48k">
+          <spine>
+            <asset-clip name="03DAAF0C-4E2D-40AA-BFE5-E1638D132E64.mp4" ref="rb4d335375f9672873ddf895c38c6b52c" start="1/30s" offset="0s" duration="219/5s" audioRole="dialogue">
+              <adjust-volume amount="-13.100000000000001db"/>
+            </asset-clip>
+          </spine>
+        </sequence>
+      </project>
+    </event>
+  </library>
+</fcpxml>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<fcpxml version="1.8">
+  <resources>
+    <format id="r1" height="1920" width="1080" frameDuration="1/30s" colorSpace="1-1-1 (Rec. 709)"/>
+    <asset id="r8c478021b15a1cddb8b9150ffb755c59" name="03DAAF0C-4E2D-40AA-BFE5-E1638D132E64.mp4" uid="8c478021-b15a-1cdd-b8b9-150ffb755c59" src="file:///mnt/c/Content-Creation/raw%20videos/03DAAF0C-4E2D-40AA-BFE5-E1638D132E64.mp4" start="0s" audioRate="44100" hasAudio="1" hasVideo="1" format="r1" duration="439/10s"/>
+  </resources>
+  <library location="./">
+    <event name="03DAAF0C-4E2D-40AA-BFE5-E1638D132E64" uid="7204cf7c-f02f-43f6-8b9c-16b36e0879c5">
+      <project name="03DAAF0C-4E2D-40AA-BFE5-E1638D132E64 20260315-041543" uid="7b5ea064-b446-4315-991a-5c4985c52094" modDate="2025-10-31 17:25:16 GMT-7">
+        <sequence duration="628/15s" format="r1" tcStart="0s" audioRate="48k">
+          <spine>
+            <asset-clip name="03DAAF0C-4E2D-40AA-BFE5-E1638D132E64.mp4" ref="r8c478021b15a1cddb8b9150ffb755c59" start="1/30s" offset="0s" duration="269/30s" audioRole="dialogue">
+              <adjust-volume amount="-13.100000000000001db"/>
+            </asset-clip>
+            <asset-clip name="03DAAF0C-4E2D-40AA-BFE5-E1638D132E64.mp4" ref="r8c478021b15a1cddb8b9150ffb755c59" start="281/30s" offset="269/30s" duration="103/15s" audioRole="dialogue">
+              <adjust-volume amount="-13.100000000000001db"/>
+            </asset-clip>
+            <asset-clip name="03DAAF0C-4E2D-40AA-BFE5-E1638D132E64.mp4" ref="r8c478021b15a1cddb8b9150ffb755c59" start="101/6s" offset="95/6s" duration="5/2s" audioRole="dialogue">
+              <adjust-volume amount="-13.100000000000001db"/>
+            </asset-clip>
+            <asset-clip name="03DAAF0C-4E2D-40AA-BFE5-E1638D132E64.mp4" ref="r8c478021b15a1cddb8b9150ffb755c59" start="39/2s" offset="55/3s" duration="47/15s" audioRole="dialogue">
+              <adjust-volume amount="-13.100000000000001db"/>
+            </asset-clip>
+            <asset-clip name="03DAAF0C-4E2D-40AA-BFE5-E1638D132E64.mp4" ref="r8c478021b15a1cddb8b9150ffb755c59" start="683/30s" offset="322/15s" duration="77/15s" audioRole="dialogue">
+              <adjust-volume amount="-13.100000000000001db"/>
+            </asset-clip>
+            <asset-clip name="03DAAF0C-4E2D-40AA-BFE5-E1638D132E64.mp4" ref="r8c478021b15a1cddb8b9150ffb755c59" start="851/30s" offset="133/5s" duration="17/5s" audioRole="dialogue">
+              <adjust-volume amount="-13.100000000000001db"/>
+            </asset-clip>
+            <asset-clip name="03DAAF0C-4E2D-40AA-BFE5-E1638D132E64.mp4" ref="r8c478021b15a1cddb8b9150ffb755c59" start="959/30s" offset="30/1s" duration="178/15s" audioRole="dialogue">
+              <adjust-volume amount="-13.100000000000001db"/>
+            </asset-clip>
+          </spine>
+        </sequence>
+      </project>
+    </event>
+  </library>
+</fcpxml>

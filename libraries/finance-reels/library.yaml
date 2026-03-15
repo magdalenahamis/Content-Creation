@@ -1,0 +1,9 @@
+name: finance-reels
+description: Financial advice videos for Instagram
+language: English
+editor: fcpx
+videos:
+  - filename: 03DAAF0C-4E2D-40AA-BFE5-E1638D132E64.mp4
+    path: "/mnt/c/Content-Creation/raw videos/03DAAF0C-4E2D-40AA-BFE5-E1638D132E64.mp4"
+    transcript: 03DAAF0C-4E2D-40AA-BFE5-E1638D132E64.json
+    visual_transcript: visual_03DAAF0C-4E2D-40AA-BFE5-E1638D132E64.json

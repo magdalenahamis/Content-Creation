@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "skills": {
+    "analyze-video": {
+      "source": "barefootford/buttercut",
+      "sourceType": "github",
+      "computedHash": "f303a95fe3da5260f668b50efce592e36191e3ef2cd9df0e544d01e9ef493fc5"
+    },
+    "backup-library": {
+      "source": "barefootford/buttercut",
+      "sourceType": "github",
+      "computedHash": "037b1e5381511f9df0416528d6d1fcc66b52844b288f0e3ce5173b63c83c7f41"
+    },
+    "release": {
+      "source": "barefootford/buttercut",
+      "sourceType": "github",
+      "computedHash": "edbb8e2142aa99c3d07c9489db7f94b72f36cafb538cb2d781169f33ac16199a"
+    },
+    "roughcut": {
+      "source": "barefootford/buttercut",
+      "sourceType": "github",
+      "computedHash": "6368c813a9b673d521cc0eb9a069e7015de31e07b925c7f8094bd5e143c68c0f"
+    },
+    "setup": {
+      "source": "barefootford/buttercut",
+      "sourceType": "github",
+      "computedHash": "4c023754eeedf5bd92e8c536f584373cef97c548cea2fdf4b7ebbcbdc3033e9f"
+    },
+    "skill-creator": {
+      "source": "anthropics/skills",
+      "sourceType": "github",
+      "computedHash": "57f470f512f45bdac598e302bc72fd62bf2b649fc7fad032efe97720149cde4d"
+    },
+    "transcribe-audio": {
+      "source": "barefootford/buttercut",
+      "sourceType": "github",
+      "computedHash": "1cff2c13bb1688c96c7b600a41342267572599da197b393c6452232815dfacaf"
+    },
+    "update-buttercut": {
+      "source": "barefootford/buttercut",
+      "sourceType": "github",
+      "computedHash": "f3172b6365ea06ede93b6a3ebb9c4b5b5e1e57aa005512752edbd9268ab4d54a"
+    }
+  }
+}

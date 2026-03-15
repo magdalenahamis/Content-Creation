@@ -1,0 +1,41 @@
+# Video files (too large for git)
+raw videos/
+*.mp4
+*.mov
+*.avi
+*.mkv
+
+# Backups
+backups/
+
+# Temp files
+tmp/
+
+# Other AI tool configs (not part of this project)
+.agent/
+.agents/
+.codebuddy/
+.commandcode/
+.continue/
+.crush/
+.factory/
+.goose/
+.junie/
+.kilocode/
+.kiro/
+.kode/
+.mcpjam/
+.mux/
+.neovate/
+.openhands/
+.pi/
+.pochi/
+.qoder/
+.qwen/
+.roo/
+.trae/
+.windsurf/
+.zencoder/
+
+# Claude local settings
+.claude/settings.local.json
