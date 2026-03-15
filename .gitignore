@@ -1,9 +1,8 @@
-# Video files (too large for git)
-raw videos/
-*.mp4
-*.mov
-*.avi
-*.mkv
+# Rendered roughcut outputs (large, local only — raw videos use Git LFS instead)
+libraries/**/*.mp4
+libraries/**/*.mov
+libraries/**/*.avi
+libraries/**/*.mkv
 
 # Backups
 backups/
