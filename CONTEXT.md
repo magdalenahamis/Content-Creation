@@ -95,6 +95,28 @@ wsl -e bash -c "ffmpeg -f concat -safe 0 -i /tmp/segments_v2_final3.txt -c:v lib
 ```
 Segments file: `/tmp/segments_v2_final3.txt` (WSL, ephemeral — recreate from table above if needed)
 
+## Session Log — 2026-03-15
+
+### Folder Reorganisation
+The project was restructured for clarity:
+- `remotion-project/` → renamed to `animations/` (was confusingly similar to `remotion/`, the Remotion framework source repo)
+- `animation-examples/` → moved to `animations/reference/` (reference material now lives alongside the project it belongs to)
+- Ghost duplicate `remotion-project` folder (with Windows carriage-return in name) was removed
+- CONTEXT.md paths updated throughout
+
+### BitcoinChart Animation
+New Remotion composition added at `animations/src/compositions/BitcoinChart.tsx`:
+- Registered as `"BitcoinChart"` (10s, 30fps, 1080×1920)
+- Deterministic pseudo-random price data with downward drift — looks like real market movement
+- Line draws progressively left-to-right as the video plays
+- Three-pass SVG rendering: wide soft halo → glowing orange stroke → bright white core
+- Pulsing tip dot with animated ring at the live position
+- Price counter interpolates $67,432 → $62,880
+- Blinking LIVE badge, dashed grid lines at 66k/64k/62k, area fill gradient
+- Dark terminal background (`#090b12`) with subtle scanline overlay
+
+---
+
 ## Roughcut Skill — Lessons Learned
 
 These lessons are now baked into `.claude/skills/roughcut/agent_instructions.md`:
