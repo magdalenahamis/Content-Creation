@@ -40,10 +40,21 @@ ButterCut is a Ruby/Python CLI toolkit that automates a 3-step video editing pip
 ### Status
 **`roughcut_20260315_v2_final3.mp4` is the current best final cut.**
 
-**Remotion animation workflow is in progress — not yet satisfactory.** Known issues:
-1. The base video renders as a still image instead of playing — `OffthreadVideo` not working correctly in this setup
-2. Animation design (kinetic captions, section titles, stat callouts, CTA) needs visual improvement once the video issue is fixed
-3. Next step: fix the OffthreadVideo rendering issue, then iterate on animation style with Magda
+**Remotion animation workflow is in progress — style defined, test render pending.**
+
+Known issues from previous render (`7_things_animated.mp4`):
+1. OffthreadVideo renders as still image — fix: use `file:///` prefix for video path (documented in `reel-style` skill)
+2. Old animation design scrapped — replaced with new `reel-style` template
+
+Next step: rebuild the Remotion composition using the new `reel-style` skill and run a test render.
+
+### Animation Style
+The canonical animation style is defined in the `reel-style` skill. Key decisions:
+- **Three modes:** full face-cam (default), split screen top/bottom (stats/visuals), pure animation (hook/statements)
+- **Style:** Clean minimal, inspired by lukedavis.ig — Inter font, light gray `#E8E8E8` bg, near-black text, white captions on video
+- **Captions:** Word-by-word reveal, no background box, white on video / black on light bg
+- **No:** yellow accents, pill badges, flash transitions, dark overlay boxes
+- **Reference video:** `C:/Content-Creation/animation-examples/` (lukedavis.ig reel)
 
 ## Video Content
 
@@ -138,4 +149,5 @@ If a doubled word persists after the edit-point check, the speaker repeated the 
 | `update-buttercut` | ButterCut | ✅ Working |
 | `release` | ButterCut | ✅ Working |
 | `skill-creator` | Anthropic | ✅ Working |
-| `add-animations` | Custom (local) | ⚠️ In progress — video still image bug, design needs work |
+| `add-animations` | Custom (local) | ⚠️ In progress — needs rebuild with new reel-style template |
+| `reel-style` | Custom (local) | ✅ Created — canonical animation style template (lukedavis.ig inspired) |
