@@ -31,9 +31,19 @@ ButterCut is a Ruby/Python CLI toolkit that automates a 3-step video editing pip
 - ✅ Latest YAML: `libraries/finance-reels/roughcuts/roughcut_20260315_v2_final_20260315_051508.yaml`
 - ✅ Latest FCPXML: `libraries/finance-reels/roughcuts/roughcut_20260315_v2_final_20260315_051508.fcpxml`
 - ✅ Backup: `backups/libraries_20260315_051720.zip`
+- ✅ Remotion source repo cloned at `C:/Content-Creation/remotion/` (separate git repo, not tracked here)
+- ✅ `add-animations` skill created at `.agents/skills/add-animations/`
+- ✅ Remotion project scaffolded at `C:/Content-Creation/remotion-project/`
+- ⚠️ First animated render produced: `libraries/finance-reels/roughcuts/7_things_animated.mp4` — **video renders as still image** (OffthreadVideo issue to fix), animations fire correctly but need design improvement
+- ⚠️ Also produced: `libraries/finance-reels/roughcuts/7_things_20s_v1.mp4` (clean roughcut used as animation input)
 
 ### Status
-**`roughcut_20260315_v2_final3.mp4` is the current best cut.** User is reviewing.
+**`roughcut_20260315_v2_final3.mp4` is the current best final cut.**
+
+**Remotion animation workflow is in progress — not yet satisfactory.** Known issues:
+1. The base video renders as a still image instead of playing — `OffthreadVideo` not working correctly in this setup
+2. Animation design (kinetic captions, section titles, stat callouts, CTA) needs visual improvement once the video issue is fixed
+3. Next step: fix the OffthreadVideo rendering issue, then iterate on animation style with Magda
 
 ## Video Content
 
@@ -111,4 +121,21 @@ If a doubled word persists after the edit-point check, the speaker repeated the 
 | Visual transcript | `libraries/finance-reels/transcripts/visual_03DAAF0C-4E2D-40AA-BFE5-E1638D132E64.json` |
 | **Current best MP4** | `libraries/finance-reels/roughcuts/roughcut_20260315_v2_final3.mp4` |
 | Current FCPXML | `libraries/finance-reels/roughcuts/roughcut_20260315_v2_final_20260315_051508.fcpxml` |
-| Skills | `C:/Content-Creation/.claude/skills/` |
+| Skills | `C:/Content-Creation/.claude/skills/` (symlinks to `.agents/skills/`) |
+| Remotion source | `C:/Content-Creation/remotion/` (separate git repo) |
+| Remotion project | `C:/Content-Creation/remotion-project/` |
+| Animation examples | `C:/Content-Creation/animation-examples/` |
+
+## Skills Installed
+
+| Skill | Source | Status |
+|-------|--------|--------|
+| `transcribe-audio` | ButterCut | ✅ Working |
+| `analyze-video` | ButterCut | ✅ Working |
+| `roughcut` | ButterCut | ✅ Working |
+| `backup-library` | ButterCut | ✅ Working |
+| `setup` | ButterCut | ✅ Working |
+| `update-buttercut` | ButterCut | ✅ Working |
+| `release` | ButterCut | ✅ Working |
+| `skill-creator` | Anthropic | ✅ Working |
+| `add-animations` | Custom (local) | ⚠️ In progress — video still image bug, design needs work |
