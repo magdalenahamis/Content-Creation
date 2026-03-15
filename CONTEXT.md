@@ -33,7 +33,7 @@ ButterCut is a Ruby/Python CLI toolkit that automates a 3-step video editing pip
 - ✅ Backup: `backups/libraries_20260315_051720.zip`
 - ✅ Remotion source repo cloned at `C:/Content-Creation/remotion/` (separate git repo, not tracked here)
 - ✅ `add-animations` skill created at `.agents/skills/add-animations/`
-- ✅ Remotion project scaffolded at `C:/Content-Creation/remotion-project/`
+- ✅ Remotion project scaffolded at `C:/Content-Creation/animations/`
 - ⚠️ First animated render produced: `libraries/finance-reels/roughcuts/7_things_animated.mp4` — **video renders as still image** (OffthreadVideo issue to fix), animations fire correctly but need design improvement
 - ⚠️ Also produced: `libraries/finance-reels/roughcuts/7_things_20s_v1.mp4` (clean roughcut used as animation input)
 
@@ -54,7 +54,7 @@ The canonical animation style is defined in the `reel-style` skill. Key decision
 - **Style:** Clean minimal, inspired by lukedavis.ig — Inter font, light gray `#E8E8E8` bg, near-black text, white captions on video
 - **Captions:** Word-by-word reveal, no background box, white on video / black on light bg
 - **No:** yellow accents, pill badges, flash transitions, dark overlay boxes
-- **Reference video:** `C:/Content-Creation/animation-examples/` (lukedavis.ig reel)
+- **Reference video:** `C:/Content-Creation/animations/reference/` (lukedavis.ig reel)
 
 ## Video Content
 
@@ -134,8 +134,8 @@ If a doubled word persists after the edit-point check, the speaker repeated the 
 | Current FCPXML | `libraries/finance-reels/roughcuts/roughcut_20260315_v2_final_20260315_051508.fcpxml` |
 | Skills | `C:/Content-Creation/.claude/skills/` (symlinks to `.agents/skills/`) |
 | Remotion source | `C:/Content-Creation/remotion/` (separate git repo) |
-| Remotion project | `C:/Content-Creation/remotion-project/` |
-| Animation examples | `C:/Content-Creation/animation-examples/` |
+| Animations project | `C:/Content-Creation/animations/` |
+| Animation reference | `C:/Content-Creation/animations/reference/` |
 
 ## Skills Installed
 
