@@ -110,7 +110,7 @@ export const BitcoinChart: React.FC = () => {
       style={{
         width: 1080,
         height: 1920,
-        background: 'radial-gradient(ellipse at 50% 40%, #0e1118 0%, #060810 100%)',
+        background: '#E8E8E8',
         display: 'flex',
         flexDirection: 'column',
         alignItems: 'center',
@@ -119,27 +119,12 @@ export const BitcoinChart: React.FC = () => {
         opacity,
       }}
     >
-      {/* ── Subtle scanlines overlay ── */}
-      <div
-        style={{
-          position: 'absolute',
-          inset: 0,
-          backgroundImage:
-            'repeating-linear-gradient(0deg, rgba(0,0,0,0.06) 0px, rgba(0,0,0,0.06) 1px, transparent 1px, transparent 3px)',
-          pointerEvents: 'none',
-        }}
-      />
-
       {/* ── LIVE badge ── */}
       <div
         style={{
           display: 'flex',
           alignItems: 'center',
           gap: 10,
-          background: 'rgba(255, 55, 40, 0.12)',
-          border: '1px solid rgba(255, 80, 50, 0.35)',
-          borderRadius: 24,
-          padding: '6px 20px',
           marginBottom: 28,
         }}
       >
@@ -148,15 +133,15 @@ export const BitcoinChart: React.FC = () => {
             width: 9,
             height: 9,
             borderRadius: '50%',
-            background: '#ff4433',
-            boxShadow: `0 0 ${5 + pulse * 10}px 2px rgba(255,60,40,0.8)`,
+            background: '#CC3322',
+            opacity: 0.6 + pulse * 0.4,
           }}
         />
         <span
           style={{
-            color: '#ff5544',
+            color: 'rgba(17,17,17,0.45)',
             fontSize: 22,
-            fontWeight: 700,
+            fontWeight: 600,
             letterSpacing: 3,
           }}
         >
@@ -167,7 +152,7 @@ export const BitcoinChart: React.FC = () => {
       {/* ── Pair label ── */}
       <div
         style={{
-          color: 'rgba(255,255,255,0.35)',
+          color: 'rgba(17,17,17,0.35)',
           fontSize: 26,
           letterSpacing: 5,
           fontWeight: 500,
@@ -180,7 +165,7 @@ export const BitcoinChart: React.FC = () => {
       {/* ── Price display ── */}
       <div
         style={{
-          color: '#ffffff',
+          color: '#111111',
           fontSize: 96,
           fontWeight: 700,
           letterSpacing: -2,
@@ -198,7 +183,7 @@ export const BitcoinChart: React.FC = () => {
           display: 'flex',
           alignItems: 'center',
           gap: 8,
-          color: '#ff6030',
+          color: '#CC3322',
           fontSize: 34,
           fontWeight: 600,
           marginBottom: 44,
@@ -217,27 +202,10 @@ export const BitcoinChart: React.FC = () => {
           style={{ overflow: 'visible' }}
         >
           <defs>
-            {/* Glow filter for the line */}
-            <filter id="lineGlow" x="-20%" y="-80%" width="140%" height="260%">
-              <feGaussianBlur stdDeviation="6" result="blur1" />
-              <feGaussianBlur stdDeviation="3" result="blur2" />
-              <feMerge>
-                <feMergeNode in="blur1" />
-                <feMergeNode in="blur2" />
-                <feMergeNode in="SourceGraphic" />
-              </feMerge>
-            </filter>
-
-            {/* Strong glow for the halo pass */}
-            <filter id="haloGlow" x="-30%" y="-120%" width="160%" height="340%">
-              <feGaussianBlur stdDeviation="14" />
-            </filter>
-
             {/* Fill gradient */}
             <linearGradient id="areaFill" x1="0" y1="0" x2="0" y2="1">
-              <stop offset="0%" stopColor="#ff5030" stopOpacity="0.22" />
-              <stop offset="60%" stopColor="#ff3020" stopOpacity="0.06" />
-              <stop offset="100%" stopColor="#ff2010" stopOpacity="0.0" />
+              <stop offset="0%" stopColor="#CC3322" stopOpacity="0.12" />
+              <stop offset="100%" stopColor="#CC3322" stopOpacity="0.0" />
             </linearGradient>
 
             {/* Clip to chart area */}
@@ -256,14 +224,14 @@ export const BitcoinChart: React.FC = () => {
                   x2={PAD_L + INNER_W}
                   y1={y}
                   y2={y}
-                  stroke="rgba(255,255,255,0.07)"
+                  stroke="rgba(17,17,17,0.1)"
                   strokeWidth="1"
                   strokeDasharray="4 8"
                 />
                 <text
                   x={PAD_L + INNER_W + 14}
                   y={y + 5}
-                  fill="rgba(255,255,255,0.25)"
+                  fill="rgba(17,17,17,0.3)"
                   fontSize="20"
                   fontFamily={fontFamily}
                 >
@@ -279,7 +247,7 @@ export const BitcoinChart: React.FC = () => {
             x2={PAD_L + INNER_W}
             y1={PAD_T + INNER_H}
             y2={PAD_T + INNER_H}
-            stroke="rgba(255,255,255,0.08)"
+            stroke="rgba(17,17,17,0.12)"
             strokeWidth="1"
           />
 
@@ -292,39 +260,13 @@ export const BitcoinChart: React.FC = () => {
             />
           )}
 
-          {/* ── Halo pass (very soft wide glow) ── */}
+          {/* ── Main line ── */}
           {points.length > 1 && (
             <path
               d={linePath}
               fill="none"
-              stroke="rgba(255, 80, 30, 0.35)"
-              strokeWidth="12"
-              filter="url(#haloGlow)"
-              clipPath="url(#chartClip)"
-            />
-          )}
-
-          {/* ── Main glowing line ── */}
-          {points.length > 1 && (
-            <path
-              d={linePath}
-              fill="none"
-              stroke="#ff7040"
-              strokeWidth="3"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              filter="url(#lineGlow)"
-              clipPath="url(#chartClip)"
-            />
-          )}
-
-          {/* ── Bright white core line ── */}
-          {points.length > 1 && (
-            <path
-              d={linePath}
-              fill="none"
-              stroke="rgba(255,200,160,0.7)"
-              strokeWidth="1.5"
+              stroke="#CC3322"
+              strokeWidth="2.5"
               strokeLinecap="round"
               strokeLinejoin="round"
               clipPath="url(#chartClip)"
@@ -338,22 +280,14 @@ export const BitcoinChart: React.FC = () => {
               <circle
                 cx={tip.x}
                 cy={tip.y}
-                r={8 + pulse * 7}
+                r={8 + pulse * 6}
                 fill="none"
-                stroke="rgba(255,100,50,0.4)"
-                strokeWidth="1.5"
-                opacity={0.5 + pulse * 0.5}
+                stroke="rgba(204,51,34,0.25)"
+                strokeWidth="1"
+                opacity={0.4 + pulse * 0.6}
               />
-              {/* Inner glow dot */}
-              <circle
-                cx={tip.x}
-                cy={tip.y}
-                r={5}
-                fill="#ff8050"
-                filter="url(#lineGlow)"
-              />
-              {/* Bright core */}
-              <circle cx={tip.x} cy={tip.y} r={2.5} fill="#ffe0c0" />
+              {/* Core dot */}
+              <circle cx={tip.x} cy={tip.y} r={3.5} fill="#CC3322" />
             </>
           )}
         </svg>
@@ -362,7 +296,7 @@ export const BitcoinChart: React.FC = () => {
       {/* ── Bottom label ── */}
       <div
         style={{
-          color: 'rgba(255,255,255,0.18)',
+          color: 'rgba(17,17,17,0.3)',
           fontSize: 20,
           letterSpacing: 4,
           marginTop: 32,

@@ -36,17 +36,19 @@ ButterCut is a Ruby/Python CLI toolkit that automates a 3-step video editing pip
 - ✅ Remotion project scaffolded at `C:/Content-Creation/animations/`
 - ⚠️ First animated render produced: `libraries/finance-reels/roughcuts/7_things_animated.mp4` — **video renders as still image** (OffthreadVideo issue to fix), animations fire correctly but need design improvement
 - ⚠️ Also produced: `libraries/finance-reels/roughcuts/7_things_20s_v1.mp4` (clean roughcut used as animation input)
+- ✅ `BitcoinChart` Remotion composition built and working — animated BTC/USD price chart in reel-style theme, previews correctly at `http://localhost:3001`
+- ✅ `bitcoin-chart` skill created at `.claude/skills/bitcoin-chart/`
 
 ### Status
 **`roughcut_20260315_v2_final3.mp4` is the current best final cut.**
 
-**Remotion animation workflow is in progress — style defined, test render pending.**
+**BitcoinChart animation is complete and styled. Ready to render.**
 
 Known issues from previous render (`7_things_animated.mp4`):
 1. OffthreadVideo renders as still image — fix: use `file:///` prefix for video path (documented in `reel-style` skill)
 2. Old animation design scrapped — replaced with new `reel-style` template
 
-Next step: rebuild the Remotion composition using the new `reel-style` skill and run a test render.
+Next step: rebuild the `SevenThingsV2` composition using the new `reel-style` skill and run a test render.
 
 ### Animation Style
 The canonical animation style is defined in the `reel-style` skill. Key decisions:
@@ -109,11 +111,25 @@ New Remotion composition added at `animations/src/compositions/BitcoinChart.tsx`
 - Registered as `"BitcoinChart"` (10s, 30fps, 1080×1920)
 - Deterministic pseudo-random price data with downward drift — looks like real market movement
 - Line draws progressively left-to-right as the video plays
-- Three-pass SVG rendering: wide soft halo → glowing orange stroke → bright white core
+- SVG chart with smooth bezier path, area fill gradient, dashed grid lines at 66k/64k/62k
 - Pulsing tip dot with animated ring at the live position
-- Price counter interpolates $67,432 → $62,880
-- Blinking LIVE badge, dashed grid lines at 66k/64k/62k, area fill gradient
-- Dark terminal background (`#090b12`) with subtle scanline overlay
+- Price counter interpolates $67,432 → $62,880 in sync with visible data
+- Minimal LIVE badge (dot + text, no border or background box)
+
+**Color scheme (reel-style light theme):**
+- Background: `#E8E8E8` (lightGray) — no dark background
+- Price text: `#111111` (black)
+- Single accent: `#CC3322` (red) — chart line, area fill, % change, LIVE dot
+- Secondary text: `rgba(17,17,17,0.35)` (dimDark)
+- No glow filters, no scanlines, no dark overlay boxes
+
+**tsconfig fixes applied** (`animations/tsconfig.json`):
+- Added `"skipLibCheck": true` — resolves `@types/dom-webcodecs` / `lib.dom.d.ts` conflicts
+- Changed `"jsx": "react"` → `"jsx": "react-jsx"` — resolves `react/jsx-runtime.js` type errors
+
+**theme.ts** — added missing `yellow: '#FFD700'` and `overlay: 'rgba(17,17,17,0.55)'` that multiple components referenced.
+
+**Skill created:** `.claude/skills/bitcoin-chart/` — documents composition spec, color palette, animation behaviour, SVG structure, render commands, and tsconfig notes.
 
 ---
 
@@ -173,3 +189,4 @@ If a doubled word persists after the edit-point check, the speaker repeated the 
 | `skill-creator` | Anthropic | ✅ Working |
 | `add-animations` | Custom (local) | ⚠️ In progress — needs rebuild with new reel-style template |
 | `reel-style` | Custom (local) | ✅ Created — canonical animation style template (lukedavis.ig inspired) |
+| `bitcoin-chart` | Custom (local) | ✅ Created — BitcoinChart Remotion composition reference and build guide |
